@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rafa.helloandroid.MainActivity">
+
+    <ImageView
+        android:id="@+id/checkbox"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/checkbox1"
+        android:layout_alignStart="@+id/checkbox1"
+        android:layout_below="@+id/phone"
+        android:src="@drawable/check" />
+
+    <ImageView
+        android:id="@+id/checkbox1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/checkbox2"
+        android:layout_alignStart="@+id/checkbox2"
+        android:layout_below="@+id/country"
+        android:src="@drawable/check" />
+
+    <ImageView
+        android:id="@+id/checkbox2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/checkbox3"
+        android:layout_alignStart="@+id/checkbox3"
+        android:layout_below="@+id/street"
+        android:src="@drawable/check" />
+
+    <ImageView
+        android:id="@+id/checkbox3"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/checkbox4"
+        android:layout_alignStart="@+id/checkbox4"
+        android:layout_below="@+id/udacity"
+        android:src="@drawable/check" />
+
+    <ImageView
+        android:id="@+id/checkbox4"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/udacity"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_toLeftOf="@+id/udacity"
+        android:layout_toStartOf="@+id/udacity"
+        android:src="@drawable/check" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/udacity"
+        android:text="@string/udacity"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:fontFamily="@font/writelikewilliam"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:id="@+id/street"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/udacity"
+        android:layout_alignStart="@+id/udacity"
+        android:layout_below="@+id/udacity"
+        android:fontFamily="@font/writelikewilliam"
+        android:text="@string/street"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/udacity"
+        android:layout_alignStart="@+id/udacity"
+        android:layout_below="@+id/street"
+        android:fontFamily="@font/writelikewilliam"
+        android:text="@string/country"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/country"
+        android:layout_alignStart="@+id/country"
+        android:layout_below="@+id/country"
+        android:fontFamily="@font/writelikewilliam"
+        android:text="@string/phone"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/phone"
+        android:layout_alignStart="@+id/phone"
+        android:layout_below="@+id/phone"
+        android:fontFamily="@font/writelikewilliam"
+        android:text="@string/web"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:src="@drawable/pieczatkagot1"
+        android:layout_centerVertical="true" />
+
+</android.widget.RelativeLayout>
